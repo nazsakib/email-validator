@@ -31,19 +31,25 @@
     <!-- main area  -->
     <main>
        <div class="container">
-        <form action="POST">
-            <!-- email -->
-            <div class="email">
-                <label for="email">Username: </label>
-                <input type="email" name="email" id="email" placeholder="Enter your email">
-            </div>
+        <h1>Enter your email to validate</h1>
+        <div class="form-area">
+            <form action="/submit" method="POST">
+                <!-- email -->
+                <div class="email">
+                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                </div>
 
-            <!-- password -->
-            <div class="password">
-                <label for="pass">Password</label>
-                <input type="password" name="pass" id="pass" placeholder="Enter your password">
+                <!-- button -->
+                <div class="button">
+                    <input id="checkBtn" class="btn" type="button" value="Check">
+                </div>
+            </form>
+        </div>
+        <div class="show-result-area">
+            <div id="showResult"> 
+                <h6>Your results will show here</h6>
             </div>
-        </form>
+        </div>
        </div>
     </main>
     <!-- main area ends -->
