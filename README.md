@@ -40,16 +40,6 @@ Using the Email Validator is straightforward:
   4. The result of the validation will be displayed on the screen, indicating whether the email is valid or not.
   5. You can also integrate this Email Validator into your own web applications by including the necessary HTML and JavaScript code from this project.
 
-## Contributing
-
-We welcome contributions to improve the Email Validator project. To contribute, follow these steps:
-
-  1. Fork the repository.
-  2. Create a new branch for your feature or bug fix: git checkout -b feature-name.
-  3. Make your changes and commit them: git commit -m 'Add a new feature'.
-  4. Push to your branch: git push origin feature-name.
-  5. Create a pull request to have your changes considered for merging.
-
 ## Reference Link
 
-It's a practice project from `CodeWithHarry`. 
+It's a practice project from `CodeWithHarry`.
