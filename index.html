@@ -3,13 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>validateS - Validator for your business!</title>
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>Heading here!</h2>
-    <h1>God please give me some knowledge!</h1>
+
+    <!-- header area -->
+    <header>
+        <div class="container">
+            <nav class="nav-area">
+                <div class="logo">
+                    <!-- <img src="images/email.svg" alt=""> -->
+                    <span>validateS</span>
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header area ends -->
+
+    <!-- main area  -->
+    <main>
+       <div class="container">
+        <form action="POST">
+            <!-- email -->
+            <div class="email">
+                <label for="email">Username: </label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <!-- password -->
+            <div class="password">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" placeholder="Enter your password">
+            </div>
+        </form>
+       </div>
+    </main>
+    <!-- main area ends -->
+
+    <!-- footer area -->
+    <footer>
+        <div class="container">
+            <p>&copy; Sakib MD Nazmush. 2023 | All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- footer area ends -->
+
+
+    <!-- script -->
+    <script src="js/script.js"></script>
 </body>
 </html>
