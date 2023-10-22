@@ -1,6 +1,7 @@
 # Email Validator
 
-![Email Validator](demo.png)
+![demo](https://github.com/nazsakib/email-validator/assets/43687926/af66c597-5d2d-42bc-9a5a-e7e24c2059a4)
+
 
 Email Validator is a simple web application built with HTML, CSS, and JavaScript that allows you to quickly check if an email address is valid according to basic email format rules.
 
