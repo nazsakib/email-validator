@@ -50,19 +50,47 @@ nav ul > li > a:hover {
 main {
     min-height: 82vh;
     padding: 18px 0;
+    background-color: cornsilk;
+}
+main .email input {
+    padding: 6px 20px 6px 4px;
+    width: 40vw;
+}
+main h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+main .form-area {
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
 }
-main .email,
-.password{
-    padding: 6px 0;
+main .button {
+    padding: 10px 0;
 }
-main .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+main .btn {
+        background-color: black;
+        border:  none;
+        color:  #fff;
+        padding:  6px 28px;
+        border-radius: 3px;
+        width: 100%;
+        cursor: pointer;
+}
+main .btn:hover {
+    background-color: rgb(66, 66, 66);
+    transition: .2s;
+}
+
+.show-result-area {
+    padding: 50px 50px;
+}
+.show-result-area h6 {
+    text-align: center;
+}
+#showResult div::first-letter {
+    text-transform: uppercase;
 }
 
 /* footer */
@@ -74,7 +102,7 @@ footer {
 }
 footer .container {
     display: flex;
-    align-items: center;
+    align-items: c;
     justify-content: center;
 }
 
@@ -84,10 +112,16 @@ footer .container {
 
 @media only screen and (max-width: 600px) {
     header .logo {
-        padding: 10px 0;
+        padding: 0 0 14px;
+    }
+    header .logo span {
+        font-size: 32px;
     }
     nav {
         flex-direction: column;
+    }
+    main h1 {
+        font-size: 28px;
     }
 }
   
