@@ -7,17 +7,23 @@ Email Validator is a simple web application built with HTML, CSS, and JavaScript
 
 ## Features
 
-- Validates email address format (e.g., `github@gmail.com`).
+- Validates email address format.
 - Provides instant feedback on the validity of the entered email address.
 - Simple and user-friendly interface.
 
+## Languages
+- HTML
+- CSS
+- JavaScript
+- Email validator API from `emailvalidator.io`
+
 ## Demo
 
-You can try out the Email Validator in action by visiting the [live demo](https://your-demo-link.com).
+You can try out the Email Validator in action by visiting the [live demo](https://nazsakib.github.io/email-validator/).
 
 ## API
 
- `emailvalidator.io`
+ `emailvalidator.io` - Free tier, only 100 requests available.
 
 ## Installation
 
