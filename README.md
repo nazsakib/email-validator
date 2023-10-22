@@ -14,7 +14,9 @@ Email Validator is a simple web application built with HTML, CSS, and JavaScript
 
 You can try out the Email Validator in action by visiting the [live demo](https://your-demo-link.com).
 
-![Email Validator Demo](demo.gif)
+## API
+
+ `emailvalidator.io`
 
 ## Installation
 
