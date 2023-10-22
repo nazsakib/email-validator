@@ -6,7 +6,7 @@ Email Validator is a simple web application built with HTML, CSS, and JavaScript
 
 ## Features
 
-- Validates email address format (e.g., `name@example.com`).
+- Validates email address format (e.g., `github@gmail.com`).
 - Provides instant feedback on the validity of the entered email address.
 - Simple and user-friendly interface.
 
@@ -22,7 +22,7 @@ To run the Email Validator locally on your machine, follow these simple steps:
 
 1. Clone this repository to your local system:
    ```bash
-   git clone https://github.com/your-username/email-validator.git
+   git clone https://github.com/nazsakib/email-validator.git
    
 2. Navigate to the project folder:
    ```bash
