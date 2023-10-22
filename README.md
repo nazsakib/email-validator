@@ -45,9 +45,9 @@ Using the Email Validator is straightforward:
 
   1. Open the index.html file in your web browser.
   2. Enter the email address you want to validate in the input field.
-  3. Click the "Validate" button.
+  3. Click the "Check" button.
   4. The result of the validation will be displayed on the screen, indicating whether the email is valid or not.
-  5. You can also integrate this Email Validator into your own web applications by including the necessary HTML and JavaScript code from this project.
+  5. You can also integrate this Email Validator into your own web applications by including the necessary HTML and JavaScript code from this project and api.
 
 ## Reference Link
 
