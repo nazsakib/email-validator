@@ -15,7 +15,7 @@ Email Validator is a simple web application built with HTML, CSS, and JavaScript
 - HTML
 - CSS
 - JavaScript
-- Email validator API from `emailvalidator.io`
+- Email validator API from `emailvalidation.io`
 
 ## Demo
 
